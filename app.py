@@ -40,14 +40,14 @@ st.json({
 
 
 st.write("Song Bata ab jaaaye kahan")
-st.audio("/home/codex/Desktop/Python/image/audio/Deewana Kar Raha Hai- slowed and reverb - axonnaru.mp3")
+st.audio("song1.mp3")
 st.sidebar.title("Side Bar")
 col1,col2=st.columns(2)
 with col1:
-    st.image("/home/codex/Desktop/Python/image/Screenshot from 2026-09-04 01-04-45.png")
+    st.image("photo1.png")
 
 with col2:
-    st.video("/home/codex/Desktop/Python/image/video/संघर्ष चुनो! __ आचार्य प्रशांत.mp4")
+    st.video("video1.mp4")
 
 st.error("Login Failed")
 st.success("Login Successful")
@@ -59,11 +59,3 @@ for i in range(1,101):
 email=st.text_input("Enter Email") 
 number=st.number_input("Enter the image")
 date=st.date_input("Enter the date")
-st.markdown("""
-###Courses
--Python
--Machine Learning
--Deep Learning
--Natural Language Processing
-""")
-   
