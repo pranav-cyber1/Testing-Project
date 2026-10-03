@@ -59,4 +59,11 @@ for i in range(1,101):
 email=st.text_input("Enter Email") 
 number=st.number_input("Enter the image")
 date=st.date_input("Enter the date")
+st.markdown("""
+###Courses
+-Python
+-Machine Learning
+-Deep Learning
+-Natural Language Processing
+""")
    
