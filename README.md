@@ -1,2 +1,2 @@
-Ignore this one this not any important project
+Ignore this one,
 Just doing random stuff in order to test my git acount
