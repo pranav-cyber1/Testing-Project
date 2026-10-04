@@ -50,6 +50,7 @@ with col2:
     st.video("video1.mp4")
 
 st.error("Login Failed")
+
 st.success("Login Successful")
 bar=st.progress(0)
 for i in range(1,101):
